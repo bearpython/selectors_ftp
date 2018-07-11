@@ -1,0 +1,6 @@
+作业：select版本的ftpserver
+要求：
+    1.使用SELECT或SELECTORS模块实现并发简单版FTP
+    2.多并发处理
+    3.提供上传和下载文件，且可以同时多用户上传下载
+

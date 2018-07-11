@@ -1,0 +1,19 @@
+程序结构:
+selectors 实现FTP功能
+├── 主程目录
+│   ├── __init__.py
+│   ├── bin #FTP 启动程序 目录
+│   │   ├── __init__.py
+│   │   ├── main.py  # 执行程序
+│   ├── conf #配置文件（包括基本目录，读取host列表及信息）
+│   │   ├── __init__.py
+│   │   ├── setting.py  #基础目录，读取配置文件
+│   ├── core #主要程序逻辑都 在这个目录 里
+│   │   ├── __init__.py
+│   │   ├── ftp_select_server.py    #主要的逻辑代码，与用户的交互
+│   ├──  data  #测试数据文件就是put分发的文件存放目录
+│   │    ├── windows7   #测试文件
+│   └──  logs #日志文件目录（一如既往的没有）
+└──————— requirements  #程序的需求文档
+└──————— README  #程序结构描述与备注
+└──————— __init__.py
